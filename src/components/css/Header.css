@@ -1,0 +1,46 @@
+.Header {
+    background-color:#003182;
+    width:100%;
+    height:250px;
+    overflow:hidden;
+}
+
+.Head {
+    color:white;
+    text-align:left;
+    display:inline-block;
+    float:left;
+    position:relative;
+    top:50px;left:20%;
+}
+
+.Head > h1 {
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+
+.Head > h3 {
+    font-size:1.5rem;
+}
+
+@media all and (max-width:460px)
+{
+    .Head > h1 {
+        font-size:2.5rem;
+    }
+    .Head > h3 {
+        font-size:1rem;
+    }
+    .Head {
+        top:70px;
+        left:5%;
+        text-align:center;
+    }
+}
+
+@media all and (max-width:270px) {
+    .Head {
+        top:5px;
+        left:0;
+    }
+}

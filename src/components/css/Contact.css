@@ -1,0 +1,48 @@
+.Contact {
+    width:100%;
+    height:700px;
+    background-image:url(../images/space3.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.contactPaper {
+    background-color:white;
+    width:25%;
+    height:200px;
+    left:37.5%;top:70px;
+    position:relative;
+    color:#333;
+    padding:50px;
+}
+
+.contactPaper p{
+    text-align:left;
+    width:100%;
+    margin-top:30px;
+    font-weight:600;
+}
+.contactPaper p:first-child {
+    margin-top:10px;
+}
+
+.contactPaper span {
+    font-weight:400;
+}
+
+@media all and (max-width:780px) {
+    .contactPaper {
+        width:50%;
+        left:15%;
+    }
+    .contactPaper p{
+        margin-top:20px;
+    }
+}
+
+@media all and (max-width:480px) {
+    .contactPaper {
+        width:80%;
+        left:0;
+    }
+}

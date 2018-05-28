@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "맑은고딕";
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  src:url("./fonts/NotoSans-Regular.ttf");
+}
+* {
+  margin:0;
+  padding:0;
+  font-family:"NotoSans-Regular";
+  transition:all.3s;
+}
+
+@media all and (max-width:1200px) {
+  html, body {
+    font-size:15px;
+  }
+}

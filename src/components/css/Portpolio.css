@@ -1,0 +1,32 @@
+.Container_Port {
+    width:100%;
+    height:1000px;
+    background-image:url(../images/space.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.itemContainer {
+    width:60%;
+    height:800px;
+    position:relative;
+    left:20%;top:100px;
+}
+
+@media all and (max-width:1200px) {
+    .itemContainer {
+        width:100%;
+        left:0;
+    }
+}
+
+@media all and (max-width:460px) {
+    .Container_Port {
+        height: 2000px;
+    }
+    .itemContainer {
+        top:50px;
+        height:1900px;
+    }
+}
